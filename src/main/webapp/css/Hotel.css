@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+/* #test{width:900px; height:20px; background:blue; float:right;} */
+.rightarticle_aa {/* border:1px solid black; */ /* float:right; */ /* width:900px; */
+	 /* margin-right:100px; */ margin:0 auto; width:1500px;}
+article {/* border:1px solid red; padding-right:60px; float:right; width:900px; */}
+
+/*서브메뉴*/
+#sub_menu_aa{width:250px; float:left;  min-height: 300px; margin : 20px 60px;
+	/* background:yellowgreen; */ background:#faf1d0;}
+#sub_menu_aa ul{list-style:none; padding:0;}
+#sub_menu_aa ul li{margin:25px 15px; /* background:gray; */ text-align:center; width:220px;
+	 height:50px; line-height:50px; /* width:250px; */}
+#tab_aa{font-size:200%; width:230px; /* width:250px; */ color:#3a3125;
+	border-bottom:7px solid #3a3125; margin:0 10px;}
+#sub_menu_aa a{text-decoration:none; color:black; font-size:135%;
+	font-weight:bold; letter-spacing:3px; color:#3a3125;}
+#sub_menu_aa a:hover{font-weight:bold; font-size:135%; color:#9f876b;}
+
+
+
+
+/*개요*/
+#abox_aa{/* position:absolute; */width:865px;  min-height:400px; float:left;
+	 /* margin:0 30px 0 30px; *//* left:430px; */margin-top:20px;
+	 padding-bottom:50px;/* background:lime; */}
+#sum_aa{position:relative;width:865px;  height:64px; border-bottom:6px solid #3a3125; 
+	font-size:170%; line-height:64px;/* background:aqua; */ color:#9f876b;
+	
+	}
+	
+body{font-family: 'Noto Serif KR', serif;}
+	
+	
+.box_aa{width:865px;  margin:20px 0; /* background:olive; */}
+.subject_aa{width:845px;font-size:200%;  height: 55px; line-height:55px;
+	padding:0 10px; /* background:teal; */ color:#3a3125;}
+.text_aa{width:845px; font-size:110%; padding:10px; /* background:silver; */}
+#img_aa{height:200px; background-image:url('../images/hotel_sum.jpg');
+	 background-position:center center; overflow:hidden;}
+
+
+
+
+
+
+/*호텔 소개*/
+#sbox_aa{/* position:absolute; */width:865px;  /* height:1000px; */ float:left; 
+	/* margin: 0 20px 0 20px; */ /* left:430px; */ margin-top:20px;
+	min-height:296px; /* background:lime; */}
+#simg_aa{position:relative;height:500px; background-image:url('../images/hotel_seoul.jpg');
+	background-position:left center; overflow:hidden; background-size:865px;}
+#box2_aa{position:relative;border:5px solid beige; width:855px; height:340px;}
+#libox_aa{position:relative;width:367.5px; height:300px; 
+	margin:20px 30px; float:left; 
+	/* background-color:purple; */}
+#box3_aa{position:relative;width:865px;  height:198px; border-top:1px solid gray;
+	 border-bottom:1px solid gray;/* height: 총 200px; */
+	 /* background:orange; */}
+
+.sub_aa{position:relative;width : 350px; height: 45px;  margin:10px auto; font-size:170%;
+	line-height:45px;
+	/* background:fuchsia; */ color:#3a3125;}
+.txt_aa{position:relative;width:350px; height:225px; margin:10px auto;
+	/*  background:green; */ color:#865009;}
+
+#box3_aa ul{position:relative;list-style:none;  padding:0; margin:50px 5px;
+	 left:262.5px; /* background:blue; */}
+#box3_aa ul li{position:relative;  text-align:left; height:20px; top:20px;}
+#name_aa{width:80px; height:100px; float:left; font-size:90%; font-weight:bold; color:#9f876b; 
+	/* background:gray; */}
+#content_aa{width:240px; height:100px; float:left; font-size:90%; font-weight:bold; color:#3a3125;}
+
+
+
+
+/*연락처*/
+#cont_table_aa{margin:10px auto;}
+.cont_name_aa{font-size:95%; font-weight:bold; color:#865009;}
+.cont_cont_aa{font-weight:bold; font-size:95%; color:#9f867b;}
+
+
+
+
+/* qna*/
+#qnawrite_aa{position:relative; width:865px; border-top:2px solid red; 
+	border-bottom:2px solid red; height:165px;}
+.qnabox_aa{width:865px; margin:0; padding:0;}
+#qnabox1_aa{height:40px; border-bottom:2px solid gray;}
+#qnabox2_aa{height:70px;}
+.qnasub_aa{width:120px; float:left; font-weight:bold; border-right:1px solid gray;
+ padding-left:9px; background:fuchsia; /* width:130px; */}
+#qnasub1_aa{height:40px; line-height:40px;}
+#qnasub2_aa{height:125px; line-height:125px;}
+.qnacon_aa{width:715px; float:left; padding-left:10px;}
+#qnacon1_aa{height:40px; line-height:40px;}
+#qnacon2_aa{height:125px; line-height:125px;}
+#buttons_aa{margin:0 auto; /* background:black; */ text-align:center; height:45px;}
+.btn_aa{width:90px; height:45px; background:#f2efeb; font-weight:bold; color:#865009;
+	border:none;}
+
+
+
+
+
+
+/* book check*/
+.bbox_aa{position:relative;width:600px; /* background:lime; */
+	 margin-top: 20px; float:left; margin-left:120px;
+	min-height:296px; background:#FFFFE9;}
+#bboxb_aa{position:relative; width:600px; min-height:500px;/*  background:fuchsia; */
+	padding-bottom:15px; float:left;}
+#bcheck_aa{position:relative; width:594px; min-height:65px;  margin:0 auto;
+	border-bottom:5px solid #9f876b; font-size:150%; font-weight:bold; line-height:65px;
+	letter-spacing:1px; padding:3px 0; /* width:600px; height:70px; */
+	/* background:olive; */ background:#faf1d0;}
+#bigctextbox_aa{position:relative; width:498px; min-height:348px; /* background:white; */ margin:40px auto;
+	border:1px solid #9f876b;/* width:500px; height:350px; */ }
+.smallctextbox_aa{position:relative; width:498px; margin:0 auto; /* background:orange; */
+	 min-height:49px;/* width:400px; height:50px;  */ border-bottom:1px solid #9f876b;}
+.smmalctextbox_aa:last-child {
+	border-bottom:0px;
+}
+.ctextsub_aa{width:98px; min-height:49px; /* background:gray; */ background:#f1ebd6; 
+	font-weight:bold; line-height:49px; float:left;}
+.ctexttext_aa{ width:392px; min-height:49px; line-height:49px; float:left;
+	padding:0 4px; /* width:400px; *//*  background:green; */
+	background:#FFFFff; color:#3a3125;}
+	
+	
+	
+	
+	
+	
+/* book check list */
+#chklisttxt_aa{color:#9f876b; padding:5px;}
+#chklistbox_aa{position:relative; width:861px; min-height:296px; border:2px solid #f1ebd6;
+	/* width:865px; min-height:300px; */}
+#chkselectbox_aa{position:relative; width:820px; min-height:60px; /* background:olive; */
+	margin:30px auto; text-align:left; background:#9f876b; line-height:30px;}
+#chklistbox2_aa{position:relative; width:820px; min-height:150px; /* background:orange; */
+	margin:20px auto;}
+#chklistlist_aa{position:relative; width:820px; font-size:120%; font-weight:bold;
+	 border-bottom:4px solid #9f876b; padding-top:5px; padding-bottom:5px;
+	 background:#f1ebd6;}
+#chklistbox3_aa{position:relative; width:820px; min-height:82px; /* background:fuchsia; */ 
+	margin-top:5px;}
+#chklisttitle_aa{position:relative; width:820px; min-height:46px; /* background:skyblue; */
+	border-top:2px solid #9f876b; border-bottom:2px solid #9f876b;/* height:50px; */
+	background:#f1ebd6;}
+
+#chklisttitle2_aa{position:relative; min-height:46px; line-height:46px; text-align:center;
+	font-weight:bold;}
+.booknumclass_aa{position:relative; float:left; width:120px; /* background:red; */}
+.kindclass_aa{position:relative; float:left; width:200px; /* background:blue; */}
+.usernumclass_aa{position:relative; float:left; width:60px; /* background:maroon; */}
+.checkinoutclass_aa{position:relative; float:left; width:240px; /* background:silver; */}
+.bookresultclass_aa{position:relative; float:left; width:100px; /* background:teal; */}
+.bookpriceclass_aa{position:relative; float:left; width:100px; /* background:white; */}
+
+#chklistcontent_aa{position:relative; border-bottom:2px solid #9f876b; width:820px; 
+	height:30px; /* background:yellow; */}
+#chklistcontent2_aa{position:relative; height:30px; text-align:center; line-height:30px;}
+.chkselect_aa{font-size:90%; font-weight:bold; color:#3a3125;}
+
+
+
+
+/* book cancel list page */
+#chkselectboxyj2_aa{position:relative; width:820px; min-height:60px; background:#9f876b;
+	margin:30px auto; text-align:center; line-height:60px;}
+	
+	
+	
+	
+

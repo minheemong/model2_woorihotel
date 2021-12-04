@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+
+#wrap { 		 background:white; }
+/*----------------------어드민헤더------------------  */
+a{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	text-decoration: none;
+	color: black; 
+}
+a:hover{
+	color: silver;	 text-decoration: underline;
+}
+.admin_header{
+	height:170px;
+	text-align: center;
+	box-sizing:border-box;
+	background-color: #faf1d0;
+	/* border-bottom: 1px sold #999; */
+	
+}
+.admin_header_logo h1{
+	font: bold 60px ;
+	padding-top: 14px;
+	letter-spacing:2px;
+}
+.admin_header_logo p{
+		font:bold 12px;
+	letter-spacing:2px;
+	margin-top:-1px;
+}
+.admin_header_gnb ul{
+	
+	padding:0; list-style:none;
+}
+.admin_header_gnb ul li{
+	display:inline-block;
+	color:black;
+}
+.admin_header_gnb ul li a{
+	display:block;
+	font:bold 14px 'arial';
+	color: black;
+	margin:0px 16px;
+	letter-spacing :1px;
+}
+.admin_header_gnb ul li a:hover{
+	color: white;	 text-decoration: underline;
+}
+
+/*----------------------어드민푸터------------------  */
+
+#footer { position:relative;  margin:o auto; height:250px;
+	   background-repeat: no-repeat;	  font-size: bold;
+	   background-color: #faf1d0;
+	   
+	   
+}
+
+/*  */
+#footer_view{
+	position:relative;
+	width:1400px;
+	height:250px;
+	margin:0 auto;
+}
+
+
+#footer_1{
+	position:absolute;
+		left:0px;
+	height: 200px ; width: 600px; 
+	text-align:center;
+
+
+}
+#footer_1 h6{
+	font:bold 30px 'arial';
+	letter-spacing:2px; 
+	margin-left: 240px;
+}
+#footer_1 p{
+	 font:bold 8px'arial';
+	letter-spacing:3px;
+	margin-top:-50px; margin-left: 250px;
+}
+
+
+#footer_2 {  
+		position:absolute;
+	text-align:center;
+	right:0px;
+	   height: 200px ; width: 800px;
+	
+
+	}
+
+
+
+footer #footer_2 ul{
+	
+	margin-top: 80px;
+	margin-right: 250px;
+}
+footer #footer_2 ul li{
+	list-style:none;
+	 display:inline-block;
+}
+footrer #foter_2 ul li a{
+	
+	display:block;
+	font:bold 14px 'arial';
+	color:black;
+	margin:0px 16px;
+	letter-spacing :1px;
+}
+#footer_3 {
+	position:absolute;
+	right:0px;
+	bottom:0px;
+	width:1400px;
+	height:100px;
+			
+	text-align: center;
+
+	
+	}
+	
+	
+.clear {	clear: both;  }
+
+
+/* -------메인이미지 */
+#main_img {text-align: center; position: relative; 
+}
+#main_img img {	 width: 1800px; height:590px; overflow: hidden;}
+
+/* 입금완료버튼 */
+#pricebutton{background:#f1ebd7; }
+
+
+
