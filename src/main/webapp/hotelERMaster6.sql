@@ -125,7 +125,7 @@ ALTER TABLE qna
 	ADD FOREIGN KEY (id)
 	REFERENCES hotelmember (id)
 ;
-
+select *from BOOK_VIEW;
 create or replace view book_view
 as
 select b.booknum, d.bdseq, m.id, m.name, h.kind, d.usernum, d.checkin, d.checkout, d.result, h.price, h.hotelnum
